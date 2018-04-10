@@ -1,9 +1,0 @@
-const TAX_RATE = 0.1;
-const PHONE_PRICE = 199;
-const ACCESSORY_PRICE = 19.99;
-const SPENDING_THRESHOLD = 500;
-var bankBal = 1000;
-
-
-
-

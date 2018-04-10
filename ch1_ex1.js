@@ -6,20 +6,22 @@ var bankBal = 1000;
 
 function purchase (bankBal){
     //do some purchasing
-    while (bank >= 0 ){
+    bank = bankBal;
+    while (bank > 0 ){
         bank = bank - PHONE_PRICE;
-        
+        return bank;
+        console.log(bank);
     }
-    return bank;
+    
 
 }
-
 
 function priceFormat () {
 
 }
 
-purchase;
+purchase(bankBal);
 
 console.log(bank);
 console.log(bankBal);
+
